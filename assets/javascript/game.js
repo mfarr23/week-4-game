@@ -19,7 +19,6 @@ var userScore = 0;
 $('#userScore').html(userScore);
 
 // Assigns crystal a random value from 1 to 12
-
 var C1 = Math.floor(Math.random() * 12) + 1;
 var C2 = Math.floor(Math.random() * 12) + 1;
 var C3 = Math.floor(Math.random() * 12) + 1;
