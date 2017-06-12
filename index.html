@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<title>
+		Crystal Collector
+	</title>
+</head>
+<body>
+
+
+<h1>Crystal Collector</h1>
+<p>Try and match the randomly generated score by clicking on the crystals!</p>
+<p>But watch out! The crystal values are unknown and they reset every round!!</p>
+
+<!-- The randomly generated score -->
+<p><span id="randomNum"></span></p>
+
+<!-- Did you win or lose? -->
+<p><span id="status"></span></p>
+
+<!-- Wins Total -->
+<p>Wins: <span id="wins"></span></p>
+
+<!-- Losses Total -->
+<p>Losses: <span id="losses"></span></p>
+
+<!-- Crystals go here -->
+<img id="C1" src="assets/images/C1.jpg" alt="C1" style="width: 150px; height: 150px;" value="C1">
+<img id="C2" src="assets/images/C2.jpg" alt="C2" style="width: 150px; height: 150px;" value="C3">
+<img id="C3" src="assets/images/C3.jpg" alt="C3" style="width: 150px; height: 150px;" value="C3">
+<img id="C4" src="assets/images/C4.jpg" alt="C4" style="width: 150px; height: 150px;" value="C4">
+
+<!-- Current Score that updates with each crystal clicked -->
+<p>Your Current Score is: <span id="userScore">0</span></p>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
